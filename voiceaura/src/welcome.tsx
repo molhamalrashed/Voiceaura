@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-const backgroundImage =
-  "https://res.cloudinary.com/dtb1hpuil/image/upload/v1700772687/q6_gwb3jp.jpg";
 
-const Welcome = () => {
+interface WelcomeProps {}
+
+const Welcome: React.FC<WelcomeProps> = () => {
   return (
     <FormWrapper>
       <FormContainer>
@@ -40,7 +40,7 @@ export default Welcome;
 
 const FormWrapper = styled.div`
   position: relative;
-  background-image: url(${backgroundImage});
+  background-image: url("https://res.cloudinary.com/dtb1hpuil/image/upload/v1700772301/q6_xnheum.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
