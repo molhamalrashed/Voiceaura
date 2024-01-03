@@ -9,8 +9,8 @@ const Welcome: React.FC<WelcomeProps> = () => {
     <FormWrapper>
       <FormContainer>
         <Heading>
-          <span className="white">AZIEL</span>{" "}
-          <span className="black">NET</span>
+          <span className="white">VOICE</span>{" "}
+          <span className="black">AURA</span>
         </Heading>
         <Slogan>
           Brings everyone closer ...
